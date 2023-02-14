@@ -1,5 +1,9 @@
 import Head from "next/head"
 import { BsFillMoonStarsFill } from "react-icons/bs"
+import { AiFillGithub } from "react-icons/ai"
+import Image from "next/image"
+import admin from "../public/admin-portret.jpg"
+
 
 export default function Home() {
   return (
@@ -19,6 +23,26 @@ export default function Home() {
           <h2 className=" font-bold text-1xl font-mono text-black">
             DEVELOPEDBYIUS
           </h2>
+        </section>
+        <section className=" md:p-10  flex align-center justify-center relative text-center">
+          <div className="">
+            <h1 className=" text-4xl pt-10">Dulea Iustina</h1>
+            <h3 className=" text-xl py-4">Developer</h3>
+            <p className=" text-1xl pb-5">
+              Ambitious and hardworking junior developer looking for a job
+              conducive to personal development.
+            </p>
+            <a href="https://github.com/iustina-d">
+              <AiFillGithub className=" mx-auto text-2xl" />
+            </a>
+
+            <Image
+              src={admin}
+              width={200}
+              height={200}
+              className=" mx-auto my-10 rounded-2xl pointer-events-none "
+            ></Image>
+          </div>
         </section>
       </main>
     </div>
