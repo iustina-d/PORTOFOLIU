@@ -3,6 +3,8 @@ import { BsFillMoonStarsFill } from "react-icons/bs"
 import { AiFillGithub } from "react-icons/ai"
 import Image from "next/image"
 import admin from "../public/admin-portret.jpg"
+import proj1 from "../public/netflixClone.png"
+import proj2 from "../public/chatApp.png"
 
 export default function Home() {
   return (
@@ -49,6 +51,44 @@ export default function Home() {
             problem-solving. I have always been an energetic person and eager to
             learn new skills.
           </h4>
+        </section>
+        <section className=" p-10">
+          <h2 className="my-10 text-4xl mx-auto text-center">Projects</h2>
+          <div className="flex  flex-col gap-10 lg:gap-20 lg:flex-row lg:justify-center ">
+            <div
+              className="shadow-2xl p-5 md:basis-1/2 md:flex-1 md:mx-auto bg-gradient-to-tr  from-indigo-700 to-indigo-300"
+              href="https://iustina-d-chat-app.netlify.app"
+            >
+              <Image src={proj1}></Image>
+              <h3>NETFLIX-CLONE</h3>
+              <p>
+                This is a clone of the main page on Netflix. I created it using
+                HTML, CSS, and javascript. The purpose of this project is to
+                become more familiar with following a particular design.
+              </p>
+              <h5 className="align-end text-red-600">
+                To go Live click on the project.
+              </h5>
+            </div>
+            <div
+              className="shadow-2xl p-5 md:basis-1/2 md:flex-1 md:mx-auto bg-gradient-to-tr  from-indigo-700 to-indigo-300"
+              href="https://iustina-d-netflix-clone.netlify.app"
+            >
+              <Image src={proj2}></Image>
+              <h3>ChatApp</h3>
+              <p>
+                The purpose of this app is conversational. The user can have a
+                real-time conversation with all the people connected at that
+                moment. Flexible application on most devices. It is an
+                application made with React && Vite, for data storage and
+                authentication we used FireBase and for its design, we used
+                HTML, CSS, and Bootstrap.
+              </p>
+              <h5 className=" text-red-600">
+                To go Live click on the project.
+              </h5>
+            </div>
+          </div>
         </section>
       </main>
     </div>
