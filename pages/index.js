@@ -4,7 +4,6 @@ import { AiFillGithub } from "react-icons/ai"
 import Image from "next/image"
 import admin from "../public/admin-portret.jpg"
 
-
 export default function Home() {
   return (
     <div>
@@ -16,10 +15,7 @@ export default function Home() {
       </Head>
       <main className="md:p-10">
         <section className="flex justify-between relative shadow-2xl md:p-10 p-5  bg-gradient-to-tr  from-indigo-700 to-indigo-300">
-          <BsFillMoonStarsFill
-            className=" text-xl rounded-full"
-            
-          />
+          <BsFillMoonStarsFill className=" text-xl rounded-full" />
           <h2 className=" font-bold text-1xl font-mono text-black">
             DEVELOPEDBYIUS
           </h2>
@@ -43,6 +39,16 @@ export default function Home() {
               className=" mx-auto my-10 rounded-2xl pointer-events-none "
             ></Image>
           </div>
+        </section>
+        <section className="p-10 text-center">
+          <h2 className=" text-4xl my-10">About Me</h2>
+          <h4 className="max-w-3xl mx-auto">
+            I am a junior programmer with no experience at a company, but I was
+            a student at CodeCool programming school where I gained experience
+            working in a team and individually. I use a creative approach to
+            problem-solving. I have always been an energetic person and eager to
+            learn new skills.
+          </h4>
         </section>
       </main>
     </div>
