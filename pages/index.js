@@ -91,6 +91,11 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <footer className="bg-black text-white text-center py-10">
+        <h3>CONTACT</h3>
+        <h4>Phone:0739152538</h4>
+        <h4>Email:iusti_iustina1999@yahoo.com</h4>
+      </footer>
     </div>
   )
 }
