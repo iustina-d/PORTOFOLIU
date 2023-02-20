@@ -78,7 +78,7 @@ export default function Home() {
             </div>
             <div
               className="shadow-2xl p-5 md:basis-1/2 md:flex-1 md:mx-auto bg-gradient-to-tr  from-indigo-700 to-indigo-300"
-              href="https://iustina-d-netflix-clone.netlify.app"
+              href="https://silly-licorice-e67cda.netlify.app"
             >
               <Image src={proj3}></Image>
               <h3>Watch-Movies</h3>
