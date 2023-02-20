@@ -5,6 +5,7 @@ import Image from "next/image"
 import admin from "../public/admin-portret.jpg"
 import proj1 from "../public/netflixClone.png"
 import proj2 from "../public/chatApp.png"
+import proj3 from "../public/movies.png"
 import { useState } from "react"
 
 export default function Home() {
@@ -72,6 +73,22 @@ export default function Home() {
                 become more familiar with following a particular design.
               </p>
               <h5 className="align-end text-red-600">
+                To go Live click on the project.
+              </h5>
+            </div>
+            <div
+              className="shadow-2xl p-5 md:basis-1/2 md:flex-1 md:mx-auto bg-gradient-to-tr  from-indigo-700 to-indigo-300"
+              href="https://iustina-d-netflix-clone.netlify.app"
+            >
+              <Image src={proj3}></Image>
+              <h3>Watch-Movies</h3>
+              <p>
+                This web page has been made with the aim of allowing users to
+                watch popular series. It is made with HTML, CSS, and JavaScript.
+                The website is fully responsive and contains some animations to
+                make user interaction more enjoyable.
+              </p>
+              <h5 className=" text-red-600">
                 To go Live click on the project.
               </h5>
             </div>
