@@ -61,10 +61,7 @@ export default function Home() {
         <section className=" p-10">
           <h2 className="my-10 text-4xl mx-auto text-center">Projects</h2>
           <div className="flex  flex-col gap-10 lg:gap-20 lg:flex-row lg:justify-center ">
-            <div
-              className="shadow-2xl p-5 md:basis-1/2 md:flex-1 md:mx-auto bg-gradient-to-tr  from-indigo-700 to-indigo-300"
-              href="https://iustina-d-netflix-clone.netlify.app"
-            >
+            <div className="shadow-2xl p-5 md:basis-1/2 md:flex-1 md:mx-auto bg-gradient-to-tr  from-indigo-700 to-indigo-300">
               <Image src={proj1}></Image>
               <h3>NETFLIX-CLONE</h3>
               <p>
@@ -73,13 +70,12 @@ export default function Home() {
                 become more familiar with following a particular design.
               </p>
               <h5 className="align-end text-red-600">
-                To go Live click on the project.
+                <a href="https://iustina-d-netflix-clone.netlify.app">
+                  To go Live click here
+                </a>
               </h5>
             </div>
-            <div
-              className="shadow-2xl p-5 md:basis-1/2 md:flex-1 md:mx-auto bg-gradient-to-tr  from-indigo-700 to-indigo-300"
-              href="https://watch-movies-iustina-d.netlify.app"
-            >
+            <div className="shadow-2xl p-5 md:basis-1/2 md:flex-1 md:mx-auto bg-gradient-to-tr  from-indigo-700 to-indigo-300">
               <Image src={proj3}></Image>
               <h3>Watch-Movies</h3>
               <p>
@@ -89,7 +85,9 @@ export default function Home() {
                 make user interaction more enjoyable.
               </p>
               <h5 className=" text-red-600">
-                To go Live click on the project.
+                <a href="https://watch-movies-iustina-d.netlify.app">
+                  To go Live click here
+                </a>
               </h5>
             </div>
             <div
@@ -101,12 +99,15 @@ export default function Home() {
               <p>
                 The purpose of this app is conversational. The user can have a
                 real-time conversation with all the people connected at that
-                moment. Flexible application on most devices. It is an application made with React && Vite which causes the page to load faster, for data storage and
-                authentication we used FireBase and for its design, we used
-                HTML, CSS, and Bootstrap.
+                moment. Flexible application on most devices. It is an
+                application made with React && Vite which causes the page to
+                load faster, for data storage and authentication we used
+                FireBase and for its design, we used HTML, CSS, and Bootstrap.
               </p>
               <h5 className=" text-red-600">
-                To go Live click on the project.
+                <a href="https://iustina-d-chat-app.netlify.app">
+                  To go Live click here
+                </a>
               </h5>
             </div>
           </div>
